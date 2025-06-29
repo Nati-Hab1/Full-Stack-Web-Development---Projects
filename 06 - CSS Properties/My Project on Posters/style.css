@@ -1,0 +1,53 @@
+html{
+    background-color: #231f20;
+    color: white;
+    text-align: center;
+}
+
+.baskerville{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header1{
+    font-family: "Times New Roman", serif;
+    text-transform: uppercase;
+    color: #eb9479;
+    font-weight: 100;
+    font-size: 4.7em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 1%;
+}
+
+#hor-rule{
+    padding-top: 0%;
+    width: 45%;
+    color: #eb9479;
+    background-color: #eb9479;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#meme-img{
+    border: 2px solid #834a44;
+    padding: 4px;
+    width: 100%;
+}
+
+#div1{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#div2{
+    text-align: center;
+    padding-top: 0%;
+}
+
+p{
+    margin: 0.6%;
+}

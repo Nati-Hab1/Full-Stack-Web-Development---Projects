@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        
+        <style>
+
+            body {
+                background-color: #010101;
+                color: white;
+                text-align: center;
+            }
+            .baskerville {
+                font-family: "Libre Baskerville", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            .main-title {
+                font-size: 40px;
+                font-weight: bold;
+                padding: 10px;
+            }
+
+            .inline-i {
+                color: #f19a36;
+            }
+
+            .gold-text {
+                color: #996515;
+                font-weight: 600;
+
+            }
+
+            .sub-title {
+                padding: 0px 0px 15px 0px;
+                margin:0;
+                font-size: 30px;
+            }
+
+            hr {
+                color: #f19a36;
+            }
+
+            .header1 {
+                font-size: 40px;
+                margin: 25px 0px 10px 0px;
+
+            }
+
+            .first {
+                margin-bottom: 0;
+            }
+
+            .second {
+                margin-top: 3px;
+                margin-bottom: 30px;
+            }
+
+            .third {
+                margin-top: 30px;
+            }
+
+            .mini-text {
+                margin-top: 30px;
+                font-size: 10px;
+            }
+            .name {
+                font-size: 40px;
+                margin: 0;
+            }
+            .title {
+                margin-top: 3px;
+                font-size: 20px;
+            }
+
+            img {
+                border-radius: 50%;
+                border: 2px solid #996515;
+                padding: 4px;
+            }
+            @media (max-width: 1250px){
+
+                .container {
+                    flex-direction: column;
+
+                }
+
+                .profile {
+                    order: -1;
+                    width: 100%;
+                }
+
+                .side-text {
+                    width: 100%;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container baskerville">
+            <div class="side-text">
+                <div class="main-title">BYB<span class="inline-i">I</span>T</div>
+                <div class="gold-text sub-title">Exclusive Invite</div>
+                <hr />
+                <div class="gold-text header1">Early Access Unlocked</div>
+                <p class="first">     Be the first to trade Gold, FX, Stock CFDs</p>
+                <p class="second">& more—<span class="gold-text">all markets in one app</span> with just your USDT.</p>
+                <hr />
+                <p class="third">Register for Early Access before Jun 6, 2025</p>
+                <p>Limited slots available. Act fast!</p>
+                <p class="mini-text">*Bybit TradiFi is powered by infra Capital (Mauritius FSC licensed).</p>
+            </div>
+            <div class="profile">
+                <img src="./assets/images/messi.jpg" alt="an image of messi" />
+                <p class="name">Lionel Messi</p>
+                <p class="title">Official TradiFi Pioneer</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+.outer-box {
+    width: 900px;
+    height: 600px;
+    background-color: #008751;
+    position: relative;
+}
+#header-text {
+    margin: 0%;
+    text-align: center;
+    font-size: 50px;
+    color: #008751;
+}
+
+.inner-rectangle {
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+}
+#inner-text-box {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 250px
+}

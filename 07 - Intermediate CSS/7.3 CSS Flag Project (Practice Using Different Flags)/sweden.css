@@ -1,0 +1,47 @@
+.outer-box {
+    width: 900px;
+    height: 600px;
+    background-color: #005293;
+    position: relative;
+}
+
+#right-topcorner-text {
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    left: 300px;
+}
+#right-topcorner-text p{
+    margin: 0%;
+    color: #fecb00;
+    font-size: 50px;
+}
+
+#right-bottomcorner-text {
+    width: 300px;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+#right-bottomcorner-text p{
+    margin: 0%;
+    color: #fecb00;
+    font-size: 50px;
+}
+
+.vertical-box {
+    width: 100px;
+    height: 600px;
+    background-color: #fecb00;
+    position: absolute;
+    left: 300px;
+}
+
+.horizontal-box {
+    width: 900px;
+    height: 100px;
+    background-color: #fecb00;
+    position: absolute;
+    top: 250px;
+}
